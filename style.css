@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 /* Main content */
 main {
-  margin-top: 60px; /* Account for the fixed navbar */
+  margin-top: 80px; /* Account for the fixed navbar */
 }
 
 h1 {
