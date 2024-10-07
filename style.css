@@ -6,18 +6,18 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif; /* font-family */
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4; /* background-color */
-  padding: 20px; /* padding */
+  background-color: #f4f4f4;
+  padding: 20px;
 }
 
 /* Navbar */
 nav {
   background-color: #333;
   color: white;
-  padding: 10px 0;
-  position: fixed; /* position */
+  padding: 15px 0; /* Increase padding for better spacing */
+  position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
@@ -40,7 +40,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #f4a261;
-  transform: scale(1.1); /* transition/transform */
+  transform: scale(1.1);
 }
 
 .active {
@@ -49,17 +49,18 @@ nav ul li a:hover {
 
 /* Main content */
 main {
-  margin-top: 100px; /* Account for the fixed navbar */
+  margin-top: 120px; /* Further increased margin to account for navbar */
+  padding: 20px;
 }
 
 h1 {
   margin-bottom: 20px;
-  text-align: center; /* text-align */
+  text-align: center;
 }
 
 /* Flexbox for centering an image */
 .blog-image {
-  display: flex; /* flex */
+  display: flex;
   justify-content: center;
   margin-top: 20px;
 }
@@ -68,11 +69,11 @@ h1 {
   width: 400px;
   height: auto;
   border-radius: 10px;
-  transition: transform 0.3s ease; /* transition */
+  transition: transform 0.3s ease;
 }
 
 .blog-image img:hover {
-  transform: scale(1.1); /* transition/transform */
+  transform: scale(1.1);
 }
 
 /* Custom scrollbar */
@@ -86,16 +87,16 @@ h1 {
 
 /* Projects Grid Styling */
 .projects-grid {
-  display: grid; /* grid */
-  grid-template-columns: 1fr 1fr; /* Two columns */
-  gap: 40px; /* Space between project boxes */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
   max-width: 1200px;
-  margin: 0 auto; /* margin */
+  margin: 0 auto;
 }
 
 .project-item {
   background-color: #fff;
-  padding: 20px; /* padding */
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -105,7 +106,7 @@ h1 {
 }
 
 .project-item ul {
-  padding-left: 20px; /* padding */
+  padding-left: 20px;
 }
 
 .project-item p {
@@ -118,7 +119,7 @@ h1 {
 }
 
 .project-item a:hover {
-  text-decoration: underline; /* pseudo-element :hover */
+  text-decoration: underline;
 }
 
 /* Flexbox for Contact Page */
@@ -134,7 +135,7 @@ h1 {
 
 /* Footer */
 footer {
-  text-align: center; /* text-align */
+  text-align: center;
   margin-top: 40px;
   color: #777;
 }
@@ -147,10 +148,10 @@ footer {
   }
 
   .projects-grid {
-    grid-template-columns: 1fr; /* Change to a single column on smaller screens */
+    grid-template-columns: 1fr;
   }
 
   main {
-    margin-top: 160px;
+    margin-top: 140px;
   }
 }
